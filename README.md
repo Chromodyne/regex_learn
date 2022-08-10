@@ -8,7 +8,7 @@
    2. [Literals](#Literals)
    3. [Meta-Characters](#Meta-Characters)
 3. [Summary](#Summary)
-4. [About the Author](#About)
+4. [About](#About)
 
 
 ## Introduction ##
