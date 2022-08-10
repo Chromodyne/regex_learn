@@ -6,9 +6,9 @@
 2. [Essentials](#Essentials)
    1. [Overview](#Overview)
    2. [Literals](#Literals)
-   3. [Meta Characters](<#Meta\ Characters>)
+   3. [Meta Characters](#Meta%20Characters)
 3. [Summary](#Summary)
-4. [About the Author](<#About\ the\ Author>)
+4. [About the Author](<#About%20the%20Author>)
 
 
 ## Introduction ##
