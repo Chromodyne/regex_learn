@@ -92,10 +92,10 @@ The first major part of the regex we will examine is `([a-z0-9_\.-]+)`
 2. Next the brackets `[ ]` contained within indicate that we are searching for a range of characters. 
 3. The `a-z` can be read as `a through z` which indicates we want to match a pattern containing any of the letters of the alphabet.
 4. Similarly, the `0-9` indicates we want to match any digits from 0 to 9. The 
-5. `\.` indicates we want to also match a period for the separation of the username from the domain name. Notice how we prefix the `.` with a backslash `\ `. Since period is a special regex character we need to "escape" from the regex sequence to
-tell it not to view the period as a command but rather as part of our match.
-6. The hyphen `-` at the end is simply used as a literal that we want to look for hyphens in the string.
-7. The plus `+` sign outside of the brackets indicates to require at least one or more of the preceding expression.
+5. The underscore `_` indicates we want to include underscores in the search.
+6. `\.` indicates we want to also match a period for the separation of the username from the domain name. Notice how we prefix the `.` with a backslash `\ `. Since period is a special regex character we need to "escape" from the regex sequence to  tell it not to view the period as a command but rather as part of our match.
+7. The hyphen `-` at the end is simply used as a literal that we want to look for hyphens in the string.
+8. The plus `+` sign outside of the brackets indicates to require at least one or more of the preceding expression.
 
 The following "at" `@` sign is treated as a literal. We use this because, as we should all know, email addresses separate
 the username from the domain with that symbol. `e.g johndoe@gmail.com`
@@ -106,7 +106,7 @@ we can analyze this one easier.
 1. Just like before the `([ ])` enclosing the matching string sets up that we are looking for a pattern matching characters.
 2. The `\d` indicates that we are looking for any digit in this portion.
 3. `a-z` once again indicates we are looking for any character in the alphabet.
-4. `\.` sets up that we expect a period at the end of the string.
+4. `\.` sets up that we want to look for a period in the string.
 5. The hyphen serves the same purpose as in the prior pattern.
 
 The last portion of this regex is the `{2,6}`. This simply indicates we are looking for a portion of the string here string containing
