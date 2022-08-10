@@ -6,9 +6,9 @@
 2. [Essentials](#Essentials)
    1. [Overview](#Overview)
    2. [Literals](#Literals)
-   3. [Meta Characters](#Meta%20Characters)
+   3. [Meta-Characters](#Meta-Characters)
 3. [Summary](#Summary)
-4. [About the Author](<#About%20the%20Author>)
+4. [About the Author](#About)
 
 
 ## Introduction ##
@@ -47,7 +47,7 @@ as searching for the pattern "body" would return the word "body." For this we wo
 While literals are helpful for finding specific words they aren't what makes regex such a Herculean tool. For that
 we need to learn about our next topic.
 
-### Meta Characters ###
+### Meta-Characters ###
 
 Meta characters are what make regex so powerful. They greatly expand the versatility of the search pattern
 by allowing one to not only look for specific strings of characters in a body of text but rather for specific
@@ -120,7 +120,7 @@ are formed. This guide is far from exhaustive and there are many great materials
 in far greater detail. A quick google search
 
 
-## About the Author ##
+## About ##
 
 Hello, I'm Chromodyne. I am an aspiring software engineer. After many years of coding for fun
 in my free-time I eventually decided to take the dive into making it a career by attending GA Tech's 2022
